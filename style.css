@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #030303;
+    font-family: 'Roboto Mono', monospace;
+    color: #ebedf1;
+    margin: 4rem;
+}
+
+.nav-section {
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+.intro-content {
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+#mouse-icon {
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#mouse-icon > img {
+    width: 100px;
+    height: 100px;
+}
+
+.about-heading {
+    color: #01b22c;
+    font-weight: 300;
+    font-size: small;
+    padding-bottom: 1.5rem;
+}
+
+.about-content {
+    font-size: larger;
+}
+
+.btn {
+    margin-top: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #030303;
+    display: inline-block;
+    height: 2rem;
+    font-size: 10pt;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-green {
+    background: #01b22c;
+}
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.mouse-icon .change-theme {
+    
+}
+
+.about-image > img {
+    width: auto;
+    padding-left: 58px;
+    height: 28rem;
+
+}
+
+.work {
+    margin-top: 4rem;
+}
+
+.work-section {
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 4rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.project-content > .project-title {
+    width: 70%;
+}
+
+.project-heading {
+    margin-bottom: 1rem;
+}
